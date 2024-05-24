@@ -125,7 +125,6 @@ impl super::BuildCommand {
                 let mut docker_args = vec![
                     "-u",
                     &uid_gid,
-                    "-it",
                     "--name",
                     &docker_container_name,
                     "--volume",
